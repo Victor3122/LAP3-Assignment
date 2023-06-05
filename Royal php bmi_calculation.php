@@ -1,21 +1,22 @@
 <?php 
-  $weight = 70; 
-    $height = 1.75; 
+  $weight = 100;  
+  $height = 1.79; 
 
-    $bmi = $weight / ($height * $height);
+  $bmi = $weight / ($height * $height);
 
-    echo "Weight: $weight kg\n";
-    echo "Height: $height m\n";
-    echo "BMI: $bmi\n";
+  echo "Weight: $weight kg<br>";
+  echo "Height: $height m<br>";
+  echo "BMI: $bmi<br>";
 
-    if ($bmi < 20) {
-        echo "You are underweight\n";
-    } elseif ($bmi >= 20 && $bmi < 30) {
-        echo "You are normal\n";
-    } elseif ($bmi >= 30 && $bmi < 40) {
-        echo "You are overweight\n";
-    } else {
-        echo "Obesity\n";
-    }
+  if ($bmi < 20) {
+      echo "You are underweight<br>";
+  } elseif ($bmi >= 20 && $bmi < 30) {
+      echo "You are normal<br>";
+  } elseif ($bmi >= 30 && $bmi < 40) {
+      echo "You are overweight<br>";
+  } else {
+      echo "Obesity<br>";
+  }
 
-?>
+?> 
+
