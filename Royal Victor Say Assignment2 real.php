@@ -14,17 +14,14 @@ function calculateGrade($marks) {
     }
 }
 
-
-$student_name = readline("Enter your name: ");
-$math_marks = readline("Enter your marks for Math: ");
-$english_marks = readline("Enter your marks for English: ");
-$biology_marks = readline("Enter your marks for Biology: ");
-$computer_marks = readline("Enter your marks for Computer: ");
-
+$student_name = "Mg Mg";
+$math_marks = 85;
+$english_marks = 90;
+$biology_marks = 78;
+$computer_marks = 92;
 
 $total_marks = $math_marks + $english_marks + $biology_marks + $computer_marks;
 $gpa = $total_marks / 4;
-
 
 $grade = calculateGrade($gpa);
 $status = ($grade === 'F') ? 'Fail' : 'Pass';
@@ -39,3 +36,4 @@ echo "GPA: $gpa\n";
 echo "Grade: $grade\n";
 echo "Status: $status\n";
 ?>
+
