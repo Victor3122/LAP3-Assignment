@@ -1,4 +1,4 @@
-function isPrime($number) {
+<? function isPrime($number) {
     // Check if the number is less than 2
     if ($number < 2) {
         return false;
@@ -20,4 +20,4 @@ if (isPrime($number)) {
     echo $number . " is a prime number.";
 } else {
     echo $number . " is not a prime number.";
-}
+} ?>
