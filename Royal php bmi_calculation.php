@@ -1,7 +1,6 @@
 <?php 
-while (true) {
-    $weight = readline("Enter your weight in kg: ");
-    $height = readline("Enter your height in m: ");
+  $weight = 70; 
+    $height = 1.75; 
 
     $bmi = $weight / ($height * $height);
 
@@ -19,9 +18,4 @@ while (true) {
         echo "Obesity\n";
     }
 
-    $continue = readline("Do you want to calculate the BMI again? (yes/no): ");
-    if ($continue !== "yes") {
-        break;
-    }
-}
 ?>
