@@ -26,14 +26,15 @@ $gpa = $total_marks / 4;
 $grade = calculateGrade($gpa);
 $status = ($grade === 'F') ? 'Fail' : 'Pass';
 
-echo "Student: $student_name\n";
-echo "Math Marks: $math_marks\n";
-echo "English Marks: $english_marks\n";
-echo "Biology Marks: $biology_marks\n";
-echo "Computer Marks: $computer_marks\n";
-echo "Total Marks: $total_marks\n";
-echo "GPA: $gpa\n";
-echo "Grade: $grade\n";
-echo "Status: $status\n";
+echo "Student: $student_name<br>";
+echo "Math Marks: $math_marks<br>";
+echo "English Marks: $english_marks<br>";
+echo "Biology Marks: $biology_marks<br>";
+echo "Computer Marks: $computer_marks<br>";
+echo "Total Marks: $total_marks<br>";
+echo "GPA: $gpa<br>";
+echo "Grade: $grade<br>";
+echo "Status: $status<br>";
 ?>
+
 
